@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "bike_thieves": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
