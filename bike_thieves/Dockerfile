@@ -17,4 +17,4 @@ RUN dotnet publish "bike_thieves.csproj" -c Release -o /app/publish /p:UseAppHos
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "bike_thieves.dll"]
+ENTRYPOINT ["dotnet","run","bike_thieves.dll"]
